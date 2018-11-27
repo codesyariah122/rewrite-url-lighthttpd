@@ -1,0 +1,49 @@
+.pattern {min-height:700px;
+}
+
+#linear1 {
+background: 
+linear-gradient(30deg, #bdbdbd 12%, transparent 12.5%, transparent 87%, #00B9B2 87.5%, #bdbdbd 0), 
+linear-gradient(150deg, #bdbdbd 12%, transparent 12.5%, transparent 87%, #00B9B2 87.5%, #bdbdbd 0), 
+linear-gradient(30deg, #bdbdbd 12%, transparent 12.5%, transparent 87%, #bdbdbd 87.5%, #bdbdbd 0), 
+linear-gradient(150deg, #bdbdbd 12%, transparent 12.5%, transparent 87%, #bdbdbd 87.5%, #bdbdbd 0), 
+linear-gradient(60deg, #dbdbdb 25%, transparent 25.5%, transparent 75%, #dbdbdb 75%, #dbdbdb 0), 
+linear-gradient(60deg, #dbdbdb 25%, transparent 25.5%, transparent 75%, #dbdbdb 75%, #dbdbdb 0), #ccc;
+background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+background-size: 800px 500px;
+}
+.content{
+max-width:500px;
+padding-top:200px;
+padding-right:400px;
+margin:auto;
+}
+fieldset{
+padding-top:10px;
+font-family:"courier new";
+font-size:5em;
+width:5em;
+}
+.p{
+font-size:40px;
+font-weight:"bold";
+font-family:"verdana";
+text-decoration:"none";
+}
+.input{
+display: inline-block; background: linear-gradient(top, #f9f9f9, #e3e3e3); 
+border: 1px solid #999; 
+border-radius: 3px; 
+padding: 5px 8px; 
+outline: none; 
+white-space: nowrap; -webkit-user-select: none; cursor: pointer; text-shadow: 1px 1px #fff; font-weight: 700; 
+font-size: 14pt;
+width:40em;
+height:5em;
+}
+.button{
+width:10em;
+height:5em;
+margin-top:1em;
+font-size:30px;
+}
